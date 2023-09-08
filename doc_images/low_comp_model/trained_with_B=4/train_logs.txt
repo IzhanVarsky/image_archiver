@@ -1,0 +1,2896 @@
+Cur logging folder: train_logs/1694133378633197300
+Training model ImageAutoEncoder_B4_CompLow_changed_last_dec_block with params:
+Optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.01
+    lr: 0.01
+    maximize: False
+    weight_decay: 0
+)
+Criterion: MSELoss()
+====================================================================================================
+Epoch 1/20
+----------
+--- Cur phase: train
+train loss: 0.016049
+--- Cur phase: test
+test loss: 0.006465
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 18.530389981068126
+BPP orig: 15.645538330078125
+BPP compressed: 0.324615478515625
+Chosen quality of JPG: 6
+BPP of JPG: 0.3309326171875
+PSNR of JPG: 25.87888812978019
+BPP decompressed: 10.597686767578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 18.0801529534481
+BPP orig: 16.441314697265625
+BPP compressed: 0.32696533203125
+Chosen quality of JPG: 5
+BPP of JPG: 0.329437255859375
+PSNR of JPG: 23.823034553107544
+BPP decompressed: 10.592498779296875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.837454227933684
+BPP orig: 19.445556640625
+BPP compressed: 0.285003662109375
+Chosen quality of JPG: 1
+BPP of JPG: 0.295562744140625
+PSNR of JPG: 18.559288438168903
+BPP decompressed: 9.769439697265625
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.235859276975788
+BPP orig: 15.645538330078125
+BPP compressed: 0.516510009765625
+Chosen quality of JPG: 18
+BPP of JPG: 0.523040771484375
+PSNR of JPG: 30.19827079604317
+BPP decompressed: 9.9190673828125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 19.313401580114867
+BPP orig: 16.441314697265625
+BPP compressed: 0.522064208984375
+Chosen quality of JPG: 15
+BPP of JPG: 0.52288818359375
+PSNR of JPG: 28.198306573165006
+BPP decompressed: 10.08978271484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 17.500363295101323
+BPP orig: 19.445556640625
+BPP compressed: 0.474334716796875
+Chosen quality of JPG: 6
+BPP of JPG: 0.452545166015625
+PSNR of JPG: 20.598746173002638
+BPP decompressed: 9.1715087890625
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.49266547168958
+BPP orig: 15.645538330078125
+BPP compressed: 0.94970703125
+Chosen quality of JPG: 49
+BPP of JPG: 0.948089599609375
+PSNR of JPG: 32.841199023356026
+BPP decompressed: 9.76904296875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 19.55822267466068
+BPP orig: 16.441314697265625
+BPP compressed: 0.94403076171875
+Chosen quality of JPG: 41
+BPP of JPG: 0.950469970703125
+PSNR of JPG: 30.909135321474302
+BPP decompressed: 9.9007568359375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 17.39913898324749
+BPP orig: 19.445556640625
+BPP compressed: 0.910430908203125
+Chosen quality of JPG: 17
+BPP of JPG: 0.9102783203125
+PSNR of JPG: 23.083842660611037
+BPP decompressed: 9.0809326171875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.482840517388304
+BPP orig: 15.645538330078125
+BPP compressed: 1.818450927734375
+Chosen quality of JPG: 81
+BPP of JPG: 1.852874755859375
+PSNR of JPG: 34.82815582063606
+BPP decompressed: 9.771514892578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 19.55291013832873
+BPP orig: 16.441314697265625
+BPP compressed: 1.77874755859375
+Chosen quality of JPG: 76
+BPP of JPG: 1.764801025390625
+PSNR of JPG: 32.71132920277819
+BPP decompressed: 9.89263916015625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 17.39696440274191
+BPP orig: 19.445556640625
+BPP compressed: 1.737030029296875
+Chosen quality of JPG: 41
+BPP of JPG: 1.732940673828125
+PSNR of JPG: 25.072951713865056
+BPP decompressed: 9.073699951171875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 2/20
+----------
+--- Cur phase: train
+train loss: 0.007145
+--- Cur phase: test
+test loss: 0.002491
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 18.082126411029567
+BPP orig: 15.645538330078125
+BPP compressed: 0.360015869140625
+Chosen quality of JPG: 8
+BPP of JPG: 0.36383056640625
+PSNR of JPG: 27.103193648547688
+BPP decompressed: 10.957275390625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 17.825645819485842
+BPP orig: 16.441314697265625
+BPP compressed: 0.361663818359375
+Chosen quality of JPG: 7
+BPP of JPG: 0.3692626953125
+PSNR of JPG: 25.537078651545897
+BPP decompressed: 10.6138916015625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.63768902575153
+BPP orig: 19.445556640625
+BPP compressed: 0.332122802734375
+Chosen quality of JPG: 3
+BPP of JPG: 0.312713623046875
+PSNR of JPG: 18.749986979402628
+BPP decompressed: 11.07208251953125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.502254032683126
+BPP orig: 15.645538330078125
+BPP compressed: 0.56207275390625
+Chosen quality of JPG: 21
+BPP of JPG: 0.56634521484375
+PSNR of JPG: 30.680746556772412
+BPP decompressed: 9.66302490234375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 19.686185570920706
+BPP orig: 16.441314697265625
+BPP compressed: 0.5731201171875
+Chosen quality of JPG: 18
+BPP of JPG: 0.577484130859375
+PSNR of JPG: 28.751649352440033
+BPP decompressed: 9.62298583984375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.135144657910505
+BPP orig: 19.445556640625
+BPP compressed: 0.53118896484375
+Chosen quality of JPG: 8
+BPP of JPG: 0.544342041015625
+PSNR of JPG: 21.364985552318366
+BPP decompressed: 9.4776611328125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.865281302557676
+BPP orig: 15.645538330078125
+BPP compressed: 1.062286376953125
+Chosen quality of JPG: 58
+BPP of JPG: 1.071533203125
+PSNR of JPG: 33.24868066126497
+BPP decompressed: 9.521942138671875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 20.036388806398836
+BPP orig: 16.441314697265625
+BPP compressed: 1.06500244140625
+Chosen quality of JPG: 49
+BPP of JPG: 1.076416015625
+PSNR of JPG: 31.33964214007975
+BPP decompressed: 9.440216064453125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.154732078866978
+BPP orig: 19.445556640625
+BPP compressed: 1.037384033203125
+Chosen quality of JPG: 20
+BPP of JPG: 1.018646240234375
+PSNR of JPG: 23.43503776468793
+BPP decompressed: 9.425750732421875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 20.85448227422362
+BPP orig: 15.645538330078125
+BPP compressed: 2.06646728515625
+Chosen quality of JPG: 84
+BPP of JPG: 2.0867919921875
+PSNR of JPG: 35.15771670234881
+BPP decompressed: 9.52294921875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 20.06322010253684
+BPP orig: 16.441314697265625
+BPP compressed: 2.0447998046875
+Chosen quality of JPG: 80
+BPP of JPG: 2.020660400390625
+PSNR of JPG: 33.02833997152627
+BPP decompressed: 9.4241943359375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.165194647419824
+BPP orig: 19.445556640625
+BPP compressed: 2.011993408203125
+Chosen quality of JPG: 51
+BPP of JPG: 2.00341796875
+PSNR of JPG: 25.579689845783363
+BPP decompressed: 9.40411376953125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 3/20
+----------
+--- Cur phase: train
+train loss: 0.005118
+--- Cur phase: test
+test loss: 0.001861
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.959538670312643
+BPP orig: 15.645538330078125
+BPP compressed: 0.356536865234375
+Chosen quality of JPG: 8
+BPP of JPG: 0.36383056640625
+PSNR of JPG: 27.103193648547688
+BPP decompressed: 11.14263916015625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 17.659074929256416
+BPP orig: 16.441314697265625
+BPP compressed: 0.370880126953125
+Chosen quality of JPG: 7
+BPP of JPG: 0.3692626953125
+PSNR of JPG: 25.537078651545897
+BPP decompressed: 11.145721435546875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.538208227265976
+BPP orig: 19.445556640625
+BPP compressed: 0.34222412109375
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 12.087249755859375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 21.458754995809777
+BPP orig: 15.645538330078125
+BPP compressed: 0.5631103515625
+Chosen quality of JPG: 21
+BPP of JPG: 0.56634521484375
+PSNR of JPG: 30.680746556772412
+BPP decompressed: 9.2869873046875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 20.58872258838771
+BPP orig: 16.441314697265625
+BPP compressed: 0.58734130859375
+Chosen quality of JPG: 19
+BPP of JPG: 0.593505859375
+PSNR of JPG: 28.86703196862141
+BPP decompressed: 9.634063720703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.543053046574396
+BPP orig: 19.445556640625
+BPP compressed: 0.5443115234375
+Chosen quality of JPG: 8
+BPP of JPG: 0.544342041015625
+PSNR of JPG: 21.364985552318366
+BPP decompressed: 9.83111572265625
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.02400324576636
+BPP orig: 15.645538330078125
+BPP compressed: 1.10174560546875
+Chosen quality of JPG: 60
+BPP of JPG: 1.10009765625
+PSNR of JPG: 33.33173606906606
+BPP decompressed: 9.0428466796875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 20.969725290787963
+BPP orig: 16.441314697265625
+BPP compressed: 1.123931884765625
+Chosen quality of JPG: 53
+BPP of JPG: 1.12860107421875
+PSNR of JPG: 31.50427814553173
+BPP decompressed: 9.429473876953125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.693155306865123
+BPP orig: 19.445556640625
+BPP compressed: 1.091278076171875
+Chosen quality of JPG: 22
+BPP of JPG: 1.094085693359375
+PSNR of JPG: 23.644912188115136
+BPP decompressed: 9.81854248046875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.034213911972124
+BPP orig: 15.645538330078125
+BPP compressed: 2.17352294921875
+Chosen quality of JPG: 85
+BPP of JPG: 2.184967041015625
+PSNR of JPG: 35.30031605232592
+BPP decompressed: 9.0330810546875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 20.989592048323903
+BPP orig: 16.441314697265625
+BPP compressed: 2.18853759765625
+Chosen quality of JPG: 82
+BPP of JPG: 2.18408203125
+PSNR of JPG: 33.20747838934232
+BPP decompressed: 9.407012939453125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.698955529627508
+BPP orig: 19.445556640625
+BPP compressed: 2.150054931640625
+Chosen quality of JPG: 55
+BPP of JPG: 2.139007568359375
+PSNR of JPG: 25.804534029699827
+BPP decompressed: 9.79888916015625
+Evaluating PSNRs done
+====================================================================================================
+Epoch 4/20
+----------
+--- Cur phase: train
+train loss: 0.004719
+--- Cur phase: test
+test loss: 0.001524
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 18.48016911457378
+BPP orig: 15.645538330078125
+BPP compressed: 0.366729736328125
+Chosen quality of JPG: 8
+BPP of JPG: 0.36383056640625
+PSNR of JPG: 27.103193648547688
+BPP decompressed: 11.5042724609375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 17.078456683963974
+BPP orig: 16.441314697265625
+BPP compressed: 0.3790283203125
+Chosen quality of JPG: 7
+BPP of JPG: 0.3692626953125
+PSNR of JPG: 25.537078651545897
+BPP decompressed: 11.142181396484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.674472410955502
+BPP orig: 19.445556640625
+BPP compressed: 0.350830078125
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 12.334686279296875
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.711868761970457
+BPP orig: 15.645538330078125
+BPP compressed: 0.575653076171875
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.571563720703125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.515385625908312
+BPP orig: 16.441314697265625
+BPP compressed: 0.59759521484375
+Chosen quality of JPG: 19
+BPP of JPG: 0.593505859375
+PSNR of JPG: 28.86703196862141
+BPP decompressed: 10.107421875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.824890740850286
+BPP orig: 19.445556640625
+BPP compressed: 0.557464599609375
+Chosen quality of JPG: 8
+BPP of JPG: 0.544342041015625
+PSNR of JPG: 21.364985552318366
+BPP decompressed: 10.24395751953125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.42475782269012
+BPP orig: 15.645538330078125
+BPP compressed: 1.140899658203125
+Chosen quality of JPG: 62
+BPP of JPG: 1.135772705078125
+PSNR of JPG: 33.445287294002156
+BPP decompressed: 9.296173095703125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.293317600841394
+BPP orig: 16.441314697265625
+BPP compressed: 1.16644287109375
+Chosen quality of JPG: 55
+BPP of JPG: 1.159576416015625
+PSNR of JPG: 31.594471749646587
+BPP decompressed: 9.8759765625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.03556699729574
+BPP orig: 19.445556640625
+BPP compressed: 1.13616943359375
+Chosen quality of JPG: 23
+BPP of JPG: 1.131500244140625
+PSNR of JPG: 23.742117874827873
+BPP decompressed: 10.185882568359375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.472036279219655
+BPP orig: 15.645538330078125
+BPP compressed: 2.267669677734375
+Chosen quality of JPG: 86
+BPP of JPG: 2.299102783203125
+PSNR of JPG: 35.44871850194842
+BPP decompressed: 9.26788330078125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.2845350146307
+BPP orig: 16.441314697265625
+BPP compressed: 2.292938232421875
+Chosen quality of JPG: 83
+BPP of JPG: 2.285430908203125
+PSNR of JPG: 33.31261221007642
+BPP decompressed: 9.854827880859375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.048740197940205
+BPP orig: 19.445556640625
+BPP compressed: 2.2518310546875
+Chosen quality of JPG: 58
+BPP of JPG: 2.251953125
+PSNR of JPG: 25.984807699375978
+BPP decompressed: 10.160247802734375
+Evaluating PSNRs done
+====================================================================================================
+Epoch 5/20
+----------
+--- Cur phase: train
+train loss: 0.004126
+--- Cur phase: test
+test loss: 0.001395
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 18.252842454881144
+BPP orig: 15.645538330078125
+BPP compressed: 0.3623046875
+Chosen quality of JPG: 8
+BPP of JPG: 0.36383056640625
+PSNR of JPG: 27.103193648547688
+BPP decompressed: 11.519134521484375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 17.186156738191972
+BPP orig: 16.441314697265625
+BPP compressed: 0.383697509765625
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.397247314453125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.556087829698182
+BPP orig: 19.445556640625
+BPP compressed: 0.35601806640625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 12.501251220703125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.412619888302515
+BPP orig: 15.645538330078125
+BPP compressed: 0.57684326171875
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.811248779296875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.902454106806285
+BPP orig: 16.441314697265625
+BPP compressed: 0.601348876953125
+Chosen quality of JPG: 19
+BPP of JPG: 0.593505859375
+PSNR of JPG: 28.86703196862141
+BPP decompressed: 10.0037841796875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.881709493115313
+BPP orig: 19.445556640625
+BPP compressed: 0.56011962890625
+Chosen quality of JPG: 8
+BPP of JPG: 0.544342041015625
+PSNR of JPG: 21.364985552318366
+BPP decompressed: 10.176055908203125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.205691576666567
+BPP orig: 15.645538330078125
+BPP compressed: 1.16094970703125
+Chosen quality of JPG: 63
+BPP of JPG: 1.16192626953125
+PSNR of JPG: 33.50585751809739
+BPP decompressed: 9.54180908203125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.580863474225332
+BPP orig: 16.441314697265625
+BPP compressed: 1.1876220703125
+Chosen quality of JPG: 56
+BPP of JPG: 1.177520751953125
+PSNR of JPG: 31.64361347659346
+BPP decompressed: 9.790374755859375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.075924776314437
+BPP orig: 19.445556640625
+BPP compressed: 1.155853271484375
+Chosen quality of JPG: 24
+BPP of JPG: 1.168365478515625
+PSNR of JPG: 23.841289052183626
+BPP decompressed: 10.175994873046875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.2224707725984
+BPP orig: 15.645538330078125
+BPP compressed: 2.328369140625
+Chosen quality of JPG: 86
+BPP of JPG: 2.299102783203125
+PSNR of JPG: 35.44871850194842
+BPP decompressed: 9.503509521484375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.612481974719305
+BPP orig: 16.441314697265625
+BPP compressed: 2.353515625
+Chosen quality of JPG: 84
+BPP of JPG: 2.38067626953125
+PSNR of JPG: 33.41121485507111
+BPP decompressed: 9.763671875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.08509316554558
+BPP orig: 19.445556640625
+BPP compressed: 2.316650390625
+Chosen quality of JPG: 60
+BPP of JPG: 2.32086181640625
+PSNR of JPG: 26.107152981661695
+BPP decompressed: 10.148284912109375
+Evaluating PSNRs done
+====================================================================================================
+Epoch 6/20
+----------
+--- Cur phase: train
+train loss: 0.003957
+--- Cur phase: test
+test loss: 0.001335
+----------
+Epoch Time: 5 min 32 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.475948632988874
+BPP orig: 15.645538330078125
+BPP compressed: 0.379119873046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.81805419921875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.870583390361883
+BPP orig: 16.441314697265625
+BPP compressed: 0.394317626953125
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.578125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.34566642905032
+BPP orig: 19.445556640625
+BPP compressed: 0.3673095703125
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.033294677734375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.465004666044514
+BPP orig: 15.645538330078125
+BPP compressed: 0.58477783203125
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.6905517578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.758363011685233
+BPP orig: 16.441314697265625
+BPP compressed: 0.609039306640625
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 9.900726318359375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 18.985802880066018
+BPP orig: 19.445556640625
+BPP compressed: 0.56768798828125
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.380340576171875
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.86729511371737
+BPP orig: 15.645538330078125
+BPP compressed: 1.1884765625
+Chosen quality of JPG: 64
+BPP of JPG: 1.1793212890625
+PSNR of JPG: 33.55138018922186
+BPP decompressed: 9.421600341796875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.30974408636587
+BPP orig: 16.441314697265625
+BPP compressed: 1.2127685546875
+Chosen quality of JPG: 58
+BPP of JPG: 1.220916748046875
+PSNR of JPG: 31.752154499406267
+BPP decompressed: 9.629669189453125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.21565025727873
+BPP orig: 19.445556640625
+BPP compressed: 1.18365478515625
+Chosen quality of JPG: 24
+BPP of JPG: 1.168365478515625
+PSNR of JPG: 23.841289052183626
+BPP decompressed: 10.437347412109375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.914410914273795
+BPP orig: 15.645538330078125
+BPP compressed: 2.400665283203125
+Chosen quality of JPG: 87
+BPP of JPG: 2.4085693359375
+PSNR of JPG: 35.59208398767703
+BPP decompressed: 9.38714599609375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.329366593831455
+BPP orig: 16.441314697265625
+BPP compressed: 2.420562744140625
+Chosen quality of JPG: 84
+BPP of JPG: 2.38067626953125
+PSNR of JPG: 33.41121485507111
+BPP decompressed: 9.58953857421875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.230138361394353
+BPP orig: 19.445556640625
+BPP compressed: 2.3917236328125
+Chosen quality of JPG: 62
+BPP of JPG: 2.401092529296875
+PSNR of JPG: 26.24345881452102
+BPP decompressed: 10.408294677734375
+Evaluating PSNRs done
+====================================================================================================
+Epoch 7/20
+----------
+--- Cur phase: train
+train loss: 0.003734
+--- Cur phase: test
+test loss: 0.001209
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.255782697136265
+BPP orig: 15.645538330078125
+BPP compressed: 0.38104248046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.926422119140625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.41205807322551
+BPP orig: 16.441314697265625
+BPP compressed: 0.3978271484375
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.5294189453125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.13687346271557
+BPP orig: 19.445556640625
+BPP compressed: 0.370758056640625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.207366943359375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.734814229961216
+BPP orig: 15.645538330078125
+BPP compressed: 0.58782958984375
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.669403076171875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.610829950078944
+BPP orig: 16.441314697265625
+BPP compressed: 0.61328125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 9.94805908203125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.071033135128946
+BPP orig: 19.445556640625
+BPP compressed: 0.571624755859375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.44329833984375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.25517670505008
+BPP orig: 15.645538330078125
+BPP compressed: 1.20343017578125
+Chosen quality of JPG: 65
+BPP of JPG: 1.202789306640625
+PSNR of JPG: 33.60876215896748
+BPP decompressed: 9.3868408203125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.37530429331821
+BPP orig: 16.441314697265625
+BPP compressed: 1.228912353515625
+Chosen quality of JPG: 59
+BPP of JPG: 1.233612060546875
+PSNR of JPG: 31.782677054194693
+BPP decompressed: 9.67694091796875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.32114609003803
+BPP orig: 19.445556640625
+BPP compressed: 1.1986083984375
+Chosen quality of JPG: 25
+BPP of JPG: 1.200408935546875
+PSNR of JPG: 23.915598418903596
+BPP decompressed: 10.480377197265625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.28834249063961
+BPP orig: 15.645538330078125
+BPP compressed: 2.443603515625
+Chosen quality of JPG: 87
+BPP of JPG: 2.4085693359375
+PSNR of JPG: 35.59208398767703
+BPP decompressed: 9.3577880859375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.41516910851796
+BPP orig: 16.441314697265625
+BPP compressed: 2.462158203125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.657073974609375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.335295847746576
+BPP orig: 19.445556640625
+BPP compressed: 2.42645263671875
+Chosen quality of JPG: 62
+BPP of JPG: 2.401092529296875
+PSNR of JPG: 26.24345881452102
+BPP decompressed: 10.444091796875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 8/20
+----------
+--- Cur phase: train
+train loss: 0.003603
+--- Cur phase: test
+test loss: 0.001183
+----------
+Epoch Time: 5 min 32 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.861325846781003
+BPP orig: 15.645538330078125
+BPP compressed: 0.375244140625
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.653076171875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.936717650377958
+BPP orig: 16.441314697265625
+BPP compressed: 0.39373779296875
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.6004638671875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.447794826727826
+BPP orig: 19.445556640625
+BPP compressed: 0.3701171875
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.149658203125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.853729411286317
+BPP orig: 15.645538330078125
+BPP compressed: 0.58612060546875
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.549652099609375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.133711191077097
+BPP orig: 16.441314697265625
+BPP compressed: 0.610595703125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 9.938720703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.19675408100407
+BPP orig: 19.445556640625
+BPP compressed: 0.5718994140625
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.504058837890625
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.46637757710819
+BPP orig: 15.645538330078125
+BPP compressed: 1.213653564453125
+Chosen quality of JPG: 65
+BPP of JPG: 1.202789306640625
+PSNR of JPG: 33.60876215896748
+BPP decompressed: 9.179168701171875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.94922364480644
+BPP orig: 16.441314697265625
+BPP compressed: 1.237945556640625
+Chosen quality of JPG: 59
+BPP of JPG: 1.233612060546875
+PSNR of JPG: 31.782677054194693
+BPP decompressed: 9.621673583984375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.46552894945362
+BPP orig: 19.445556640625
+BPP compressed: 1.2093505859375
+Chosen quality of JPG: 25
+BPP of JPG: 1.200408935546875
+PSNR of JPG: 23.915598418903596
+BPP decompressed: 10.467803955078125
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.47658461423455
+BPP orig: 15.645538330078125
+BPP compressed: 2.47637939453125
+Chosen quality of JPG: 87
+BPP of JPG: 2.4085693359375
+PSNR of JPG: 35.59208398767703
+BPP decompressed: 9.14471435546875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.986364389200027
+BPP orig: 16.441314697265625
+BPP compressed: 2.49285888671875
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.59429931640625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.483138282879946
+BPP orig: 19.445556640625
+BPP compressed: 2.462188720703125
+Chosen quality of JPG: 63
+BPP of JPG: 2.454498291015625
+PSNR of JPG: 26.322654469973124
+BPP decompressed: 10.43341064453125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 9/20
+----------
+--- Cur phase: train
+train loss: 0.003477
+--- Cur phase: test
+test loss: 0.001132
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.879309487473108
+BPP orig: 15.645538330078125
+BPP compressed: 0.374176025390625
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.5970458984375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.653030712978804
+BPP orig: 16.441314697265625
+BPP compressed: 0.394287109375
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.570831298828125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.3172451709293
+BPP orig: 19.445556640625
+BPP compressed: 0.370452880859375
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.2530517578125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.141871967286832
+BPP orig: 15.645538330078125
+BPP compressed: 0.5855712890625
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.68536376953125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.077106876040563
+BPP orig: 16.441314697265625
+BPP compressed: 0.60968017578125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.086669921875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.2118933171939
+BPP orig: 19.445556640625
+BPP compressed: 0.57171630859375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.653350830078125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.837114716913668
+BPP orig: 15.645538330078125
+BPP compressed: 1.22100830078125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.242401123046875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.912226972954016
+BPP orig: 16.441314697265625
+BPP compressed: 1.245086669921875
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.758209228515625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.517643865103707
+BPP orig: 19.445556640625
+BPP compressed: 1.21783447265625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.6270751953125
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.861647319466243
+BPP orig: 15.645538330078125
+BPP compressed: 2.501953125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.200347900390625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.959861530176102
+BPP orig: 16.441314697265625
+BPP compressed: 2.515960693359375
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.7305908203125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.53606339627075
+BPP orig: 19.445556640625
+BPP compressed: 2.489288330078125
+Chosen quality of JPG: 64
+BPP of JPG: 2.496368408203125
+PSNR of JPG: 26.39151265476936
+BPP decompressed: 10.6011962890625
+Evaluating PSNRs done
+====================================================================================================
+Epoch 10/20
+----------
+--- Cur phase: train
+train loss: 0.003415
+--- Cur phase: test
+test loss: 0.001122
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.768356887803524
+BPP orig: 15.645538330078125
+BPP compressed: 0.37713623046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.551727294921875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.606787805016403
+BPP orig: 16.441314697265625
+BPP compressed: 0.394927978515625
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.448486328125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.224852012467455
+BPP orig: 19.445556640625
+BPP compressed: 0.37353515625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.32012939453125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.0561058998785
+BPP orig: 15.645538330078125
+BPP compressed: 0.58782958984375
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.694610595703125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.065976630743226
+BPP orig: 16.441314697265625
+BPP compressed: 0.61029052734375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.10845947265625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.23515905122451
+BPP orig: 19.445556640625
+BPP compressed: 0.573333740234375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.69732666015625
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.723378312927284
+BPP orig: 15.645538330078125
+BPP compressed: 1.228546142578125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.25787353515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.901366760689502
+BPP orig: 16.441314697265625
+BPP compressed: 1.25103759765625
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.79443359375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.540417093203324
+BPP orig: 19.445556640625
+BPP compressed: 1.225128173828125
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.69635009765625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.759661271730536
+BPP orig: 15.645538330078125
+BPP compressed: 2.51934814453125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.223663330078125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.940816177134877
+BPP orig: 16.441314697265625
+BPP compressed: 2.534942626953125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.770721435546875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.554021915817124
+BPP orig: 19.445556640625
+BPP compressed: 2.509796142578125
+Chosen quality of JPG: 64
+BPP of JPG: 2.496368408203125
+PSNR of JPG: 26.39151265476936
+BPP decompressed: 10.67303466796875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 11/20
+----------
+--- Cur phase: train
+train loss: 0.003366
+--- Cur phase: test
+test loss: 0.001099
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.922162747417566
+BPP orig: 15.645538330078125
+BPP compressed: 0.37115478515625
+Chosen quality of JPG: 8
+BPP of JPG: 0.36383056640625
+PSNR of JPG: 27.103193648547688
+BPP decompressed: 11.5093994140625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.711454472521467
+BPP orig: 16.441314697265625
+BPP compressed: 0.393218994140625
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.580413818359375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.241711975055235
+BPP orig: 19.445556640625
+BPP compressed: 0.371826171875
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.363800048828125
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.847298962153314
+BPP orig: 15.645538330078125
+BPP compressed: 0.585784912109375
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.70428466796875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.97550232724374
+BPP orig: 16.441314697265625
+BPP compressed: 0.610015869140625
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.114532470703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.19943831237607
+BPP orig: 19.445556640625
+BPP compressed: 0.571380615234375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.726898193359375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.49300814799676
+BPP orig: 15.645538330078125
+BPP compressed: 1.227294921875
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.224853515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.813503506617316
+BPP orig: 16.441314697265625
+BPP compressed: 1.2529296875
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.75177001953125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.50184086267495
+BPP orig: 19.445556640625
+BPP compressed: 1.2254638671875
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.726043701171875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.537431748102758
+BPP orig: 15.645538330078125
+BPP compressed: 2.518951416015625
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.1802978515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.862860920815162
+BPP orig: 16.441314697265625
+BPP compressed: 2.54046630859375
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.7177734375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.525192207382137
+BPP orig: 19.445556640625
+BPP compressed: 2.51446533203125
+Chosen quality of JPG: 64
+BPP of JPG: 2.496368408203125
+PSNR of JPG: 26.39151265476936
+BPP decompressed: 10.67987060546875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 12/20
+----------
+--- Cur phase: train
+train loss: 0.003342
+--- Cur phase: test
+test loss: 0.001087
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.75768436700687
+BPP orig: 15.645538330078125
+BPP compressed: 0.373931884765625
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.492218017578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.684077626411636
+BPP orig: 16.441314697265625
+BPP compressed: 0.3944091796875
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.44012451171875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.24538481747509
+BPP orig: 19.445556640625
+BPP compressed: 0.37322998046875
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.343841552734375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.658379502757384
+BPP orig: 15.645538330078125
+BPP compressed: 0.58795166015625
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.683502197265625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.87291913528518
+BPP orig: 16.441314697265625
+BPP compressed: 0.61175537109375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.1131591796875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.17841638041575
+BPP orig: 19.445556640625
+BPP compressed: 0.572906494140625
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.73138427734375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.2960311477129
+BPP orig: 15.645538330078125
+BPP compressed: 1.23236083984375
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.23651123046875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.727054859039526
+BPP orig: 16.441314697265625
+BPP compressed: 1.257232666015625
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.747833251953125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.4819812747985
+BPP orig: 19.445556640625
+BPP compressed: 1.229278564453125
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.734100341796875
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.33574279299343
+BPP orig: 15.645538330078125
+BPP compressed: 2.53155517578125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.18194580078125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.743701179309177
+BPP orig: 16.441314697265625
+BPP compressed: 2.550384521484375
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.71240234375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.4996025879551
+BPP orig: 19.445556640625
+BPP compressed: 2.52386474609375
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.701812744140625
+Evaluating PSNRs done
+====================================================================================================
+Epoch 13/20
+----------
+--- Cur phase: train
+train loss: 0.003321
+--- Cur phase: test
+test loss: 0.001084
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.888576669458594
+BPP orig: 15.645538330078125
+BPP compressed: 0.37322998046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.486358642578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.74542891777278
+BPP orig: 16.441314697265625
+BPP compressed: 0.393829345703125
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.55853271484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.22845149049401
+BPP orig: 19.445556640625
+BPP compressed: 0.373687744140625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.376708984375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.977325505769638
+BPP orig: 15.645538330078125
+BPP compressed: 0.58660888671875
+Chosen quality of JPG: 22
+BPP of JPG: 0.5802001953125
+PSNR of JPG: 30.781708061789907
+BPP decompressed: 9.686187744140625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.040033203077
+BPP orig: 16.441314697265625
+BPP compressed: 0.611083984375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.10699462890625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.247317562514038
+BPP orig: 19.445556640625
+BPP compressed: 0.572540283203125
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.740020751953125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.603504570937112
+BPP orig: 15.645538330078125
+BPP compressed: 1.231964111328125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.193817138671875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.951749923548896
+BPP orig: 16.441314697265625
+BPP compressed: 1.25750732421875
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.762420654296875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.560083231509363
+BPP orig: 19.445556640625
+BPP compressed: 1.229827880859375
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.73345947265625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.647977560364343
+BPP orig: 15.645538330078125
+BPP compressed: 2.533599853515625
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.15277099609375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.994093881224046
+BPP orig: 16.441314697265625
+BPP compressed: 2.55242919921875
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.733978271484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.57912903422488
+BPP orig: 19.445556640625
+BPP compressed: 2.52587890625
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.701873779296875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 14/20
+----------
+--- Cur phase: train
+train loss: 0.003311
+--- Cur phase: test
+test loss: 0.001077
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.8578126547734
+BPP orig: 15.645538330078125
+BPP compressed: 0.3731689453125
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.502044677734375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.735382386782945
+BPP orig: 16.441314697265625
+BPP compressed: 0.39410400390625
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.5064697265625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.219803718044965
+BPP orig: 19.445556640625
+BPP compressed: 0.373504638671875
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.372406005859375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.935779584729858
+BPP orig: 15.645538330078125
+BPP compressed: 0.58746337890625
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.705596923828125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 21.935278807341064
+BPP orig: 16.441314697265625
+BPP compressed: 0.6114501953125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.12188720703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.225367307372643
+BPP orig: 19.445556640625
+BPP compressed: 0.572906494140625
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.794525146484375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.577743281454865
+BPP orig: 15.645538330078125
+BPP compressed: 1.233795166015625
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.240875244140625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.858538354344148
+BPP orig: 16.441314697265625
+BPP compressed: 1.25860595703125
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.74761962890625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.53657032531617
+BPP orig: 19.445556640625
+BPP compressed: 1.2308349609375
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.782318115234375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.639795183383043
+BPP orig: 15.645538330078125
+BPP compressed: 2.537261962890625
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.199127197265625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.87528806472467
+BPP orig: 16.441314697265625
+BPP compressed: 2.556304931640625
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.7305908203125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.55478496152906
+BPP orig: 19.445556640625
+BPP compressed: 2.52813720703125
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.75372314453125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 15/20
+----------
+--- Cur phase: train
+train loss: 0.003302
+--- Cur phase: test
+test loss: 0.001076
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.89976286990584
+BPP orig: 15.645538330078125
+BPP compressed: 0.37310791015625
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.488922119140625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.762259516088843
+BPP orig: 16.441314697265625
+BPP compressed: 0.394195556640625
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.5523681640625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.22590760323232
+BPP orig: 19.445556640625
+BPP compressed: 0.373687744140625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.389404296875
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.09445719732842
+BPP orig: 15.645538330078125
+BPP compressed: 0.5875244140625
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.7015380859375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.123646955378792
+BPP orig: 16.441314697265625
+BPP compressed: 0.6119384765625
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.12274169921875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.258912156599276
+BPP orig: 19.445556640625
+BPP compressed: 0.57330322265625
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.78631591796875
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.744929847132884
+BPP orig: 15.645538330078125
+BPP compressed: 1.233612060546875
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.211334228515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.055986121524707
+BPP orig: 16.441314697265625
+BPP compressed: 1.2586669921875
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.75537109375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.577714955127167
+BPP orig: 19.445556640625
+BPP compressed: 1.23114013671875
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.773590087890625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.796702096677773
+BPP orig: 15.645538330078125
+BPP compressed: 2.537750244140625
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.172027587890625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.066139641962884
+BPP orig: 16.441314697265625
+BPP compressed: 2.55560302734375
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.729156494140625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.593626952675457
+BPP orig: 19.445556640625
+BPP compressed: 2.5299072265625
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.74334716796875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 16/20
+----------
+--- Cur phase: train
+train loss: 0.003301
+--- Cur phase: test
+test loss: 0.001075
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.884329839643407
+BPP orig: 15.645538330078125
+BPP compressed: 0.37408447265625
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.462860107421875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.761953933318324
+BPP orig: 16.441314697265625
+BPP compressed: 0.394744873046875
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.5428466796875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.23727833020172
+BPP orig: 19.445556640625
+BPP compressed: 0.374847412109375
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.382537841796875
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.003855123574883
+BPP orig: 15.645538330078125
+BPP compressed: 0.587860107421875
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.6903076171875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.102947662460114
+BPP orig: 16.441314697265625
+BPP compressed: 0.6126708984375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.1077880859375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.283958934698045
+BPP orig: 19.445556640625
+BPP compressed: 0.573577880859375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.76611328125
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.678476888787646
+BPP orig: 15.645538330078125
+BPP compressed: 1.23486328125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.20001220703125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.027210517664628
+BPP orig: 16.441314697265625
+BPP compressed: 1.26019287109375
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.74365234375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.585418544826815
+BPP orig: 19.445556640625
+BPP compressed: 1.23248291015625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.771331787109375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.720616321801455
+BPP orig: 15.645538330078125
+BPP compressed: 2.539337158203125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.161712646484375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.058596709534296
+BPP orig: 16.441314697265625
+BPP compressed: 2.558746337890625
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.7193603515625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.60384399721274
+BPP orig: 19.445556640625
+BPP compressed: 2.53179931640625
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.728240966796875
+Evaluating PSNRs done
+====================================================================================================
+Epoch 17/20
+----------
+--- Cur phase: train
+train loss: 0.003295
+--- Cur phase: test
+test loss: 0.001071
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.920527991718238
+BPP orig: 15.645538330078125
+BPP compressed: 0.37322998046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.48382568359375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.7690458800501
+BPP orig: 16.441314697265625
+BPP compressed: 0.394744873046875
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.536712646484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.2121631690476
+BPP orig: 19.445556640625
+BPP compressed: 0.3746337890625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.39990234375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.068423287775587
+BPP orig: 15.645538330078125
+BPP compressed: 0.587371826171875
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.69677734375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.059036859516738
+BPP orig: 16.441314697265625
+BPP compressed: 0.612335205078125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.11297607421875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.269499664885213
+BPP orig: 19.445556640625
+BPP compressed: 0.573333740234375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.800506591796875
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.744793625558035
+BPP orig: 15.645538330078125
+BPP compressed: 1.234649658203125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.217010498046875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.99949553213053
+BPP orig: 16.441314697265625
+BPP compressed: 1.260101318359375
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.757110595703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.580274230019928
+BPP orig: 19.445556640625
+BPP compressed: 1.2320556640625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.78472900390625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.78503238370316
+BPP orig: 15.645538330078125
+BPP compressed: 2.53985595703125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.171905517578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.02026562358416
+BPP orig: 16.441314697265625
+BPP compressed: 2.55889892578125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.715484619140625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.597958146091795
+BPP orig: 19.445556640625
+BPP compressed: 2.53118896484375
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.748809814453125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 18/20
+----------
+--- Cur phase: train
+train loss: 0.003294
+--- Cur phase: test
+test loss: 0.001075
+----------
+Epoch Time: 5 min 32 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.920527991718238
+BPP orig: 15.645538330078125
+BPP compressed: 0.37322998046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.48382568359375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.7690458800501
+BPP orig: 16.441314697265625
+BPP compressed: 0.394744873046875
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.536712646484375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.2121631690476
+BPP orig: 19.445556640625
+BPP compressed: 0.3746337890625
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.39990234375
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.068423287775587
+BPP orig: 15.645538330078125
+BPP compressed: 0.587371826171875
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.69677734375
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.059036859516738
+BPP orig: 16.441314697265625
+BPP compressed: 0.612335205078125
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.11297607421875
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.269499664885213
+BPP orig: 19.445556640625
+BPP compressed: 0.573333740234375
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.800506591796875
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.744793625558035
+BPP orig: 15.645538330078125
+BPP compressed: 1.234649658203125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.217010498046875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.99949553213053
+BPP orig: 16.441314697265625
+BPP compressed: 1.260101318359375
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.757110595703125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.580274230019928
+BPP orig: 19.445556640625
+BPP compressed: 1.2320556640625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.78472900390625
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.78503238370316
+BPP orig: 15.645538330078125
+BPP compressed: 2.53985595703125
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.171905517578125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.02026562358416
+BPP orig: 16.441314697265625
+BPP compressed: 2.55889892578125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.715484619140625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.597958146091795
+BPP orig: 19.445556640625
+BPP compressed: 2.53118896484375
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.748809814453125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 19/20
+----------
+--- Cur phase: train
+train loss: 0.003293
+--- Cur phase: test
+test loss: 0.001070
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.908078714074296
+BPP orig: 15.645538330078125
+BPP compressed: 0.3729248046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.459259033203125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.754278558731524
+BPP orig: 16.441314697265625
+BPP compressed: 0.394622802734375
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.53125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.21628370932872
+BPP orig: 19.445556640625
+BPP compressed: 0.37481689453125
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.387664794921875
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.997633175545214
+BPP orig: 15.645538330078125
+BPP compressed: 0.58837890625
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.70947265625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.047520298867532
+BPP orig: 16.441314697265625
+BPP compressed: 0.613128662109375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.14105224609375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.266239386700015
+BPP orig: 19.445556640625
+BPP compressed: 0.5743408203125
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.812591552734375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.705245875325506
+BPP orig: 15.645538330078125
+BPP compressed: 1.235137939453125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.224578857421875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.009192742311754
+BPP orig: 16.441314697265625
+BPP compressed: 1.260528564453125
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.76959228515625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.577930798227353
+BPP orig: 19.445556640625
+BPP compressed: 1.232574462890625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.797943115234375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.761144711607276
+BPP orig: 15.645538330078125
+BPP compressed: 2.53997802734375
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.17584228515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.026620301368254
+BPP orig: 16.441314697265625
+BPP compressed: 2.559112548828125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.74072265625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.59590097950769
+BPP orig: 19.445556640625
+BPP compressed: 2.5311279296875
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.75762939453125
+Evaluating PSNRs done
+====================================================================================================
+Epoch 20/20
+----------
+--- Cur phase: train
+train loss: 0.003291
+--- Cur phase: test
+test loss: 0.001073
+----------
+Epoch Time: 5 min 31 sec
+Some evaluations...
+Current Image: ./test_images/lena.png
+Current Image: ./test_images/peppers.png
+Current Image: ./test_images/baboon.png
+Evaluations ended
+Evaluating PSNRs...
+==================================================
+Testing PSNR with B: 1
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 17.908078714074296
+BPP orig: 15.645538330078125
+BPP compressed: 0.3729248046875
+Chosen quality of JPG: 9
+BPP of JPG: 0.381103515625
+PSNR of JPG: 27.5954910174119
+BPP decompressed: 11.459259033203125
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 16.754278558731524
+BPP orig: 16.441314697265625
+BPP compressed: 0.394622802734375
+Chosen quality of JPG: 8
+BPP of JPG: 0.389190673828125
+PSNR of JPG: 25.96863186095098
+BPP decompressed: 11.53125
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 16.21628370932872
+BPP orig: 19.445556640625
+BPP compressed: 0.37481689453125
+Chosen quality of JPG: 4
+BPP of JPG: 0.354522705078125
+PSNR of JPG: 19.45766841705266
+BPP decompressed: 13.387664794921875
+==================================================
+Testing PSNR with B: 2
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 22.997633175545214
+BPP orig: 15.645538330078125
+BPP compressed: 0.58837890625
+Chosen quality of JPG: 23
+BPP of JPG: 0.593597412109375
+PSNR of JPG: 30.91425985767463
+BPP decompressed: 9.70947265625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 22.047520298867532
+BPP orig: 16.441314697265625
+BPP compressed: 0.613128662109375
+Chosen quality of JPG: 20
+BPP of JPG: 0.609405517578125
+PSNR of JPG: 29.00559541061086
+BPP decompressed: 10.14105224609375
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.266239386700015
+BPP orig: 19.445556640625
+BPP compressed: 0.5743408203125
+Chosen quality of JPG: 9
+BPP of JPG: 0.58746337890625
+PSNR of JPG: 21.64530183526448
+BPP decompressed: 10.812591552734375
+==================================================
+Testing PSNR with B: 4
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.705245875325506
+BPP orig: 15.645538330078125
+BPP compressed: 1.235137939453125
+Chosen quality of JPG: 66
+BPP of JPG: 1.227569580078125
+PSNR of JPG: 33.66971617864277
+BPP decompressed: 9.224578857421875
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.009192742311754
+BPP orig: 16.441314697265625
+BPP compressed: 1.260528564453125
+Chosen quality of JPG: 60
+BPP of JPG: 1.254119873046875
+PSNR of JPG: 31.827733009215244
+BPP decompressed: 9.76959228515625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.577930798227353
+BPP orig: 19.445556640625
+BPP compressed: 1.232574462890625
+Chosen quality of JPG: 26
+BPP of JPG: 1.23455810546875
+PSNR of JPG: 24.00692158911678
+BPP decompressed: 10.797943115234375
+==================================================
+Testing PSNR with B: 8
+--------------------
+Encoding test_images/lena.png...
+Decoding test_images/lena.png...
+PSNR: 23.761144711607276
+BPP orig: 15.645538330078125
+BPP compressed: 2.53997802734375
+Chosen quality of JPG: 88
+BPP of JPG: 2.57000732421875
+PSNR of JPG: 35.77313119157477
+BPP decompressed: 9.17584228515625
+--------------------
+Encoding test_images/peppers.png...
+Decoding test_images/peppers.png...
+PSNR: 23.026620301368254
+BPP orig: 16.441314697265625
+BPP compressed: 2.559112548828125
+Chosen quality of JPG: 85
+BPP of JPG: 2.502166748046875
+PSNR of JPG: 33.52544120086338
+BPP decompressed: 9.74072265625
+--------------------
+Encoding test_images/baboon.png...
+Decoding test_images/baboon.png...
+PSNR: 19.59590097950769
+BPP orig: 19.445556640625
+BPP compressed: 2.5311279296875
+Chosen quality of JPG: 65
+BPP of JPG: 2.54498291015625
+PSNR of JPG: 26.466334522084477
+BPP decompressed: 10.75762939453125
+Evaluating PSNRs done
+*** Training Completed ***

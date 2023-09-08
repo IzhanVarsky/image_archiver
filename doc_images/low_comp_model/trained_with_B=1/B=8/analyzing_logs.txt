@@ -1,0 +1,26 @@
+Testing PSNR on model ./models/ImageAutoEncoder_B1_CompLow.pth
+Params:
+B: 8
+Model compression type: low
+Test dir: test_images
+--------------------
+Decoding test_images/baboon.png...
+PSNR: 14.809459862548493
+BPP compressed: 2.289276123046875
+Chosen quality of JPG: 59
+BPP of JPG: 2.282806396484375
+PSNR of JPG: 26.042267783906006
+--------------------
+Decoding test_images/lena.png...
+PSNR: 16.748684208963475
+BPP compressed: 2.3299560546875
+Chosen quality of JPG: 86
+BPP of JPG: 2.299102783203125
+PSNR of JPG: 35.44871850194842
+--------------------
+Decoding test_images/peppers.png...
+PSNR: 15.273660806800075
+BPP compressed: 2.22943115234375
+Chosen quality of JPG: 82
+BPP of JPG: 2.18408203125
+PSNR of JPG: 33.20747838934232
